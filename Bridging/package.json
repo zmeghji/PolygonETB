@@ -1,0 +1,18 @@
+{
+  "name": "bridging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "dependencies": {
+    "@maticnetwork/maticjs": "^3.2.3",
+    "@maticnetwork/maticjs-web3": "^1.0.1",
+    "@truffle/hdwallet-provider": "^2.0.3"
+  }
+}
