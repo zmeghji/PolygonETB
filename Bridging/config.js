@@ -1,6 +1,6 @@
 module.exports = {
-    posRootERC20: "0x4617BB33F34AE5fBEf99435DBACD55C7169BAec8",
-    posChildERC20: "0xa251a895c813aC134643C34a77CC44600286236f",
+    posRootERC20: "0x655f2166b0709cd575202630952d71e2bb0d61af",
+    posChildERC20: "0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1",
     posRootERC721: "0xfA08B72137eF907dEB3F202a60EfBc610D2f224b",
     posChildERC721: "0x757b1BD7C12B81b52650463e7753d7f5D0565C0e",
     posRootERC1155:"0x2e3Ef7931F2d0e4a7da3dea950FF3F19269d9063",
@@ -12,7 +12,7 @@ module.exports = {
     plasmaChildERC20: "0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e",
     plasmaRootERC721: "0xfA08B72137eF907dEB3F202a60EfBc610D2f224b",
     plasmaChildERC721: "0x33FC58F12A56280503b04AC7911D1EceEBcE179c",
-    MATIC_RPC: "https://rpc-mumbai.maticvigil.com",
+    MATIC_RPC: process.env.MUMBAI_RPC_URL,
     ETHEREUM_RPC: process.env.GOERLI_RPC_URL,
     VERSION: "mumbai",
     NETWORK: "testnet",
